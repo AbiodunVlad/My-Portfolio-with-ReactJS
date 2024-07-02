@@ -1,0 +1,117 @@
+.contact {
+  background-color: #87ceeb;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.contactH2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.contactInput {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px 5px;
+  border: 1.5px solid #fff;
+  border-radius: 50px;
+  background-color: transparent;
+}
+
+.textarea {
+  height: 100px;
+  border-radius: 15px;
+}
+
+.socialContact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 10%;
+  gap: 10px;
+
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  right: 0px;
+}
+
+.socialIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.whatsapp {
+  color: green;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+/* Media query for screens up to 768px */
+@media screen and (max-width: 768px) {
+  .contact {
+    width: 100vw;
+    padding-bottom: 30px;
+    overflow: hidden;
+  }
+
+  .contactH2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contactDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .contactInput {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .textarea {
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  .socialContact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    bottom: 10px;
+    right: 45px;
+    gap: 5px;
+  }
+
+  .socialIcon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+  }
+}

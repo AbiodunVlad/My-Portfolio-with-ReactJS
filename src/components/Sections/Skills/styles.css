@@ -1,0 +1,100 @@
+.skills {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
+}
+
+.skillsH2 {
+  color: #87ceeb;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.tools {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.leftTools,
+.rightTools {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.left1,
+.left2,
+.right1,
+.right2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.specificTool {
+  font-size: 15px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+
+  color: #fff;
+  background-color: #780909;
+
+  width: 100px;
+  height: 100px;
+
+  border-radius: 50%;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .skills {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .skillsH2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tools {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .leftTools,
+  .rightTools {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .left1,
+  .left2,
+  .right1,
+  .right2 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .specificTool {
+    font-size: 14px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+}

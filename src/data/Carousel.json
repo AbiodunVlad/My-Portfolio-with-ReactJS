@@ -1,0 +1,26 @@
+{
+  "slides": [
+    {
+      "src": "../assets/images/broadviewcapital.png",
+      "alt": "broadviewcapital",
+      "link": "https://www.broadviewcapital.com/"
+    },
+    {
+      "src": "../assets/images/harbourchurch.png",
+      "alt": "harbourchurch",
+      "link": "https://www.harborchurchla.com/"
+    },
+
+    {
+      "src": "../assets/images/onered.png",
+      "alt": "onered",
+      "link": "https://www.oneredbox.ng/"
+    },
+
+    {
+      "src": "../assets/images/iKarely1.png",
+      "alt": "iKarely",
+      "link": "https://www.behance.net/gallery/201537165/iKarely-Health"
+    }
+  ]
+}
