@@ -21,6 +21,12 @@
       "src": "../assets/images/iKarely1.png",
       "alt": "iKarely",
       "link": "https://www.behance.net/gallery/201537165/iKarely-Health"
+    },
+
+    {
+      "src": "../assets/images/u4c.png",
+      "alt": "U4C",
+      "link": "https://under40ceos.vercel.app/"
     }
   ]
 }
