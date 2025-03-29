@@ -15,7 +15,7 @@ export default function Skills() {
           </div>
           <div className="left2">
             <div className="specificTool">CSS</div>
-            <div className="specificTool">VUE</div>
+            <div className="specificTool">NEXT JS</div>
             <div className="specificTool">WEBFLOW</div>
           </div>
         </div>
