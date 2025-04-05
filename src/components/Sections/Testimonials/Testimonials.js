@@ -6,8 +6,8 @@ export default function Testimonials() {
     <div className="services" id="services">
       <h2 className="servicesH2">Testimonials</h2>
 
-      <div className="servicesBlock">
-        <div className="serviceDiv">
+      <div className="testimonyBlock">
+        <div className="testimonyDiv">
           <p>
             "Working with Abiodun was a game-changer for us with the management
             and maintenance of our website. He transformed our complex process
@@ -18,7 +18,7 @@ export default function Testimonials() {
           <h3 className="servicesHeader">Adetola Asa, E-PHIS Consulting</h3>
         </div>
 
-        <div className="serviceDiv">
+        <div className="testimonyDiv">
           <p>
             "From design to deployment, Abiodun crafts business websites that
             perfectly capture brands while optimizing usability. His technical

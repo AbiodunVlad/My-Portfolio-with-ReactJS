@@ -19,18 +19,18 @@
   font-size: 25px;
 }
 
-.servicesBlock {
+.testimonyBlock {
   display: flex;
   /* flex-direction: row; */
   justify-content: space-between;
   align-items: flex-start;
 
   /* padding: 0 100px; */
-  width: 100%;
+  width: 50%;
   gap: 20px;
 }
 
-.serviceDiv {
+.testimonyDiv {
   background-color: #fff;
   max-width: calc(80% - 10px);
   height: 400px;
@@ -39,7 +39,7 @@
   flex: 1;
   /* flex-grow: calc(5); */
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   text-align: center;
   padding: 20px;
   border-radius: 20px;
@@ -56,6 +56,12 @@
   font-size: 15px;
 }
 
+@media screen and (max-width: 1440px) {
+  .testimonyBlock {
+    width: 80%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .services {
     padding-left: 20px;
@@ -66,13 +72,14 @@
     font-size: 20px;
   }
 
-  .servicesBlock {
+  .testimonyBlock {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    width: 100%;
   }
 
-  .serviceDiv {
+  .testimonyDiv {
     width: 100%;
     height: auto;
     padding: 20px;
