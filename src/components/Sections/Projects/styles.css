@@ -38,7 +38,8 @@
   width: 15%;
   height: 7%;
   border-radius: 50px;
-  background-color: #780909;
+  /* background-color: #780909; */
+  background-color: #1d1d7e;
   top: 350px;
   left: 20px;
 }

@@ -48,7 +48,8 @@
   font-weight: 700;
   font-style: normal;
   font-size: 25px;
-  color: #87ceeb;
+  /* color: #87ceeb; */
+  color: #1d1d7e;
 
   margin-bottom: 5px;
 }
@@ -57,7 +58,8 @@
   border: none;
   padding: 10px 20px;
   width: 200px;
-  background-color: #780909;
+  /* background-color: #780909; */
+  background-color: #1d1d7e;
   color: #fff;
   border-radius: 50px;
 
@@ -75,8 +77,10 @@
 
 .expand:hover {
   background-color: #fff;
-  color: #780909;
-  border: 2px solid #780909;
+  /* color: #780909; */
+  color: #1d1d7e;
+  /* border: 2px solid #780909; */
+  border: 2px solid #1d1d7e;
 }
 
 /* Media query for mobile screens */

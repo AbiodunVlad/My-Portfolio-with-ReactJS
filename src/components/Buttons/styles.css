@@ -1,6 +1,7 @@
 .downloadBtn {
   background-color: #fff;
-  color: #780909;
+  /* color: #780909; */
+  color: #1d1d7e;
 
   border: none;
   padding: 10px 20px;
@@ -17,10 +18,17 @@
 }
 
 .downloadBtn:hover {
-  background-color: #780909;
+  /* background-color: #780909; */
+  background-color: #1d1d7e;
   color: #fff;
 }
 
 .send {
   width: 100%;
+}
+
+.send:hover {
+  border: #fff;
+  border-radius: 60px;
+  border-width: 2px;
 }

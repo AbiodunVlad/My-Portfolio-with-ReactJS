@@ -10,6 +10,7 @@ import Projects from "../Sections/Projects/Projects";
 
 import slides from "../../data/Carousel.json";
 import Contact from "../Sections/Contact/Contact";
+import Testimonials from "../Sections/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
       <Qualifications />
 
       <Projects data={slides.slides} />
+
+      <Testimonials />
 
       <Contact />
     </div>
