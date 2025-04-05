@@ -13,10 +13,10 @@ export default function HeroSection() {
     <div className="heroSection">
       <div className="balls">
         <img src={redBall1} alt="redBall1" className="redBall1" />
-        <img src={redBall1} alt="redBall1" className="redBall1" />
+        {/* <img src={redBall1} alt="redBall1" className="redBall1" /> */}
 
-        {/* <img src={greenBall} alt="greenBall" className="greenBall" /> */}
         <img src={redBall2} alt="redBall2" className="redBall2" />
+        <img src={greenBall} alt="greenBall" className="greenBall" />
       </div>
 
       <div className="glassDiv">
