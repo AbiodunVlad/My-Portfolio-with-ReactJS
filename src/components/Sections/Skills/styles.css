@@ -8,7 +8,8 @@
 }
 
 .skillsH2 {
-  color: #87ceeb;
+  /* color: #87ceeb; */
+  color: #1d1d7e;
 
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -49,7 +50,8 @@
   display: flex;
 
   color: #fff;
-  background-color: #780909;
+  /* background-color: #780909; */
+  background-color: #1d1d7e;
 
   width: 100px;
   height: 100px;

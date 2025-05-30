@@ -1,5 +1,6 @@
 .navbar {
-  background-color: #87ceeb;
+  /* background-color: #87ceeb; */
+  background-color: #1d1d7e;
   width: 100%;
   height: 10vh;
   align-items: center;
@@ -61,7 +62,8 @@ a {
     flex-direction: column;
     width: 100vw;
     text-align: center;
-    background-color: #87ceeb;
+    /* background-color: #87ceeb; */
+    background-color: #1d1d7e;
     position: fixed;
     top: 10vh;
     left: 0;
