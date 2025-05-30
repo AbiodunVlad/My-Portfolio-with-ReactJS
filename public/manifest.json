@@ -1,6 +1,8 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Abiodun Omonijo",
+  "name": "Abiodun Omonijo's Portfolio",
+  "description": "Portfolio of Abiodun Omonijo, showcasing projects and skills in mobile and web development.",
+  "lang": "en",
   "icons": [
     {
       "src": "favicon.ico",
