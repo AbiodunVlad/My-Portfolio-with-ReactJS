@@ -20,10 +20,10 @@ import taroAgric from "../../../assets/images/taroAgric.png";
 // library.add(faArrowLeft, faArrowRight);
 
 const imageMap = {
-  U4C: U4C,
+  Under40CEOs: U4C,
   broadviewcapital: broadviewcapital,
   taroAgric: taroAgric,
-  onered: onered,
+  oneRedBox: onered,
   harbourchurch: harbourchurch,
   iKarely: iKarely,
 };
