@@ -1,9 +1,24 @@
 {
   "slides": [
     {
+      "src": "../assets/images/u4c.png",
+      "alt": "Under40CEOs",
+      "link": "https://under40ceos.com/"
+    },
+    {
       "src": "../assets/images/broadviewcapital.png",
       "alt": "broadviewcapital",
       "link": "https://www.broadviewcapital.com/"
+    },
+    {
+      "src": "../assets/images/taroAgric.png",
+      "alt": "Taro Agric",
+      "link": "https://www.taroagric.com/"
+    },
+    {
+      "src": "../assets/images/oneRedBox.png",
+      "alt": "One Red Box",
+      "link": "https://www.oneredbox.ng/"
     },
     {
       "src": "../assets/images/harbourchurch.png",
@@ -12,21 +27,9 @@
     },
 
     {
-      "src": "../assets/images/onered.png",
-      "alt": "onered",
-      "link": "https://www.oneredbox.ng/"
-    },
-
-    {
       "src": "../assets/images/iKarely1.png",
       "alt": "iKarely",
       "link": "https://www.behance.net/gallery/201537165/iKarely-Health"
-    },
-
-    {
-      "src": "../assets/images/u4c.png",
-      "alt": "U4C",
-      "link": "https://under40ceos.com/"
     }
   ]
 }

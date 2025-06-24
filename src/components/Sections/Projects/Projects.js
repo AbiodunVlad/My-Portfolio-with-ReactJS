@@ -12,18 +12,20 @@ import {
 
 import broadviewcapital from "../../../assets/images/broadviewcapital.png";
 import harbourchurch from "../../../assets/images/harbourchurch.png";
-import onered from "../../../assets/images/onered.png";
+import onered from "../../../assets/images/oneRedBox.png";
 import iKarely from "../../../assets/images/iKarely1.png";
 import U4C from "../../../assets/images/u4c.png";
+import taroAgric from "../../../assets/images/taroAgric.png";
 
 // library.add(faArrowLeft, faArrowRight);
 
 const imageMap = {
-  broadviewcapital: broadviewcapital,
-  harbourchurch: harbourchurch,
-  onered: onered,
-  iKarely: iKarely,
   U4C: U4C,
+  broadviewcapital: broadviewcapital,
+  taroAgric: taroAgric,
+  onered: onered,
+  harbourchurch: harbourchurch,
+  iKarely: iKarely,
 };
 
 export default function Projects({ data }) {
